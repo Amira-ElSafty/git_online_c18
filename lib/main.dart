@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.orange,
-          title: Text('Hello',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.white
-          ),),
+          backgroundColor: Colors.pink,
+            title: Text('Hello',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white
+              ),)
         ),
       ),
     );
